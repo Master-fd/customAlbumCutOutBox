@@ -14,6 +14,7 @@
 		1B0C68001D31ED3D00B8C5E8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B0C67FF1D31ED3D00B8C5E8 /* Images.xcassets */; };
 		1B0C68031D31ED3D00B8C5E8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1B0C68011D31ED3D00B8C5E8 /* LaunchScreen.xib */; };
 		1B0C680F1D31ED3D00B8C5E8 /* customAlbumCutOutBoxTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B0C680E1D31ED3D00B8C5E8 /* customAlbumCutOutBoxTests.m */; };
+		1B0C681A1D31ED6C00B8C5E8 /* UIImage+cutImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B0C68191D31ED6C00B8C5E8 /* UIImage+cutImage.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		1B0C68081D31ED3D00B8C5E8 /* customAlbumCutOutBoxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = customAlbumCutOutBoxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B0C680D1D31ED3D00B8C5E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1B0C680E1D31ED3D00B8C5E8 /* customAlbumCutOutBoxTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = customAlbumCutOutBoxTests.m; sourceTree = "<group>"; };
+		1B0C68181D31ED6C00B8C5E8 /* UIImage+cutImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+cutImage.h"; sourceTree = "<group>"; };
+		1B0C68191D31ED6C00B8C5E8 /* UIImage+cutImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+cutImage.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +84,8 @@
 		1B0C67F11D31ED3D00B8C5E8 /* customAlbumCutOutBox */ = {
 			isa = PBXGroup;
 			children = (
+				1B0C68181D31ED6C00B8C5E8 /* UIImage+cutImage.h */,
+				1B0C68191D31ED6C00B8C5E8 /* UIImage+cutImage.m */,
 				1B0C67F61D31ED3D00B8C5E8 /* AppDelegate.h */,
 				1B0C67F71D31ED3D00B8C5E8 /* AppDelegate.m */,
 				1B0C67F91D31ED3D00B8C5E8 /* ViewController.h */,
@@ -219,6 +224,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B0C681A1D31ED6C00B8C5E8 /* UIImage+cutImage.m in Sources */,
 				1B0C67FB1D31ED3D00B8C5E8 /* ViewController.m in Sources */,
 				1B0C67F81D31ED3D00B8C5E8 /* AppDelegate.m in Sources */,
 				1B0C67F51D31ED3D00B8C5E8 /* main.m in Sources */,
@@ -348,6 +354,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = customAlbumCutOutBox/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -358,6 +365,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = customAlbumCutOutBox/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
