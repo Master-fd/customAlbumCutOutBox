@@ -6,3 +6,6 @@
    在navigationController will show时，先判断navigationController的所有子控制器，找到相机截取框的控制器  
    结合class_getInstanceMethod，class_replaceMethod， method_getImplementation，drawRect方法，将相机  
    截取框控制器的View的drawRect方法替换成自定义的drawRect方法。
+
+##我的博客  
+   欢迎光临：http://www.cnblogs.com/hepingqingfeng/
